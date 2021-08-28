@@ -1,4 +1,4 @@
-# flybeat 数据收集处理
+# flybeat 流数据收集处理
 
 # 描述
 1：现阶段支持api下方对应的策略到该组件
@@ -28,12 +28,12 @@
 	# {"Json":{}}
 	 
 # filter
-	## {"Add":[{"filed":"field", "process":"", "value":"Now(2006-01-02)"}]}
-	## {"Add":[{"filed": "field", "process": "", "value": "Random(20,10)"}]}
-	## {"Remove":[{"filed": "field", "process": "HasSuffix(234)", "value": ""}]}
-	## {"Remove":[{"filed": "field", "process": "HasPrefix(d2)", "value": ""}]}
-	## {"Drop":[{"filed":"model", "process":"hasPrefix(q)", "value":""}]}
-	## {"Drop":[{"filed":"model", "process":"hasSuffix(q)", "value":""}]}
-	## {"Replace":[{"filed":"model", "process":"hasSuffix(q)", "value":""}]}
-	##  {"Modify":[{"filed":"model", "process":"hasSuffix(model, "q")", "value":""}]}
+	# {"Add":[{"filed":"field", "process":"", "value":"Now(2006-01-02)"}]}
+	# {"Add":[{"filed": "field", "process": "", "value": "Random(20,10)"}]}
+	# {"Remove":[{"filed": "field", "process": "HasSuffix(234)", "value": ""}]}
+	# {"Remove":[{"filed": "field", "process": "HasPrefix(d2)", "value": ""}]}
+	# {"Drop":[{"filed":"model", "process":"hasPrefix(q)", "value":""}]}
+	# {"Drop":[{"filed":"model", "process":"hasSuffix(q)", "value":""}]}
+	# {"Replace":[{"filed":"model", "process":"hasSuffix(q)", "value":""}]}
+	#  {"Modify":[{"filed":"model", "process":"hasSuffix(model, "q")", "value":""}]}
  
